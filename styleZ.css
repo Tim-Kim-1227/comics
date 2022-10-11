@@ -1,0 +1,73 @@
+ /* defining attributes of classes */ 
+
+/* overall margin and padding */ 
+*{
+    margin:0;
+    padding:0;
+}
+
+.text {
+    padding:30px;
+    color:white;
+}
+
+img {color:#fff;
+    padding:5px;
+    
+}
+
+.pic {
+    padding:5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    padding:5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.container {
+    width:100%;
+    color:whitesmoke;
+    align-items:center;
+    padding-top: 50;
+}
+
+ /* attributes for autotyped text */ 
+span{
+    font-size: 25px;
+    color:whitesmoke
+}
+
+.photocontainer{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper{
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper-slide img{
+    width: 100%
+}
+
+.imgtext{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+}
+
+ /* final film attributes */ 
+.video{
+    align-items: center;
+    justify-content: center;
+        display: flex;
+}
